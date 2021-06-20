@@ -878,3 +878,53 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+/* .about-me {
+    position: relative;    
+    overflow: hidden; 
+    display: grid; 
+    grid-template-rows: 1fr 2fr 1fr; 
+    align-items: center; 
+    max-width: 500px; 
+} */
+
+.about-me {
+    margin: auto; 
+    align-items: center; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+
+/* @media (max-width: 1000px)
+.about-me-image {
+    width: 400px; 
+    height: 400px; 
+    margin-top: 30px; 
+    margin: auto; 
+} */
+
+.about-me-image {
+    border-radius: 300px; 
+    max-width: 500px; 
+    margin: auto;
+}
+
+.about-me-header {
+    font-size: 50px; 
+}
+
+.about-me-description {
+    max-width: 600px; 
+    font-size: 20px; 
+}
+/* 
+.about-me-description {
+    text-align: center;
+    margin: auto; 
+    border-width: 5px; 
+    display: block; 
+    margin-block-start: 1em; 
+    margin-block-end: 1em; 
+    margin-inline-start: 0px; 
+    margin-inline-end: 0px; 
+}  */
