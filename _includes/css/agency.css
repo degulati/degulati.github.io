@@ -271,12 +271,25 @@ header {
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+    background-repeat: no-repeat;
+    /* -webkit-background-size: cover; */
+    /* -moz-background-size: cover; */
     background-size: cover;
-    -o-background-size: cover;
+    /* -o-background-size: cover; */
+    /* width: 100%;  */
+    /* height: auto;  */
 }
+
+header .header-image {
+
+    width: 200px;
+    height: 200px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    
+} 
 
 header .intro-text {
     padding-top: 100px;

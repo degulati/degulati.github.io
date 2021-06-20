@@ -1,9 +1,9 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Enlighten
+subtitle: Machine Learning
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2020-01-21
 img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
@@ -13,3 +13,4 @@ category: Web Development
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---
+
