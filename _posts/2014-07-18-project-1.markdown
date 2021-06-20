@@ -4,8 +4,8 @@ subtitle: Machine Learning
 layout: default
 modal-id: 1
 date: 2020-01-21
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: enlighten.png
+thumbnail: enlighten-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

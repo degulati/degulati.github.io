@@ -4,8 +4,8 @@ subtitle: Controls & Robotics
 layout: default
 modal-id: 2
 date: 2020-03-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: 148-car.jpg
+thumbnail: 148-car-thumbnail.png
 alt: image-alt
 project-date: April - June 2021
 client: Start Bootstrap
