@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April - June 2021
 client: Start Bootstrap
 category: Robotics
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Meet our car, Harold! This RC car can navigate around a race track autonomously using ROS, OpenCV, and PID Control - all run on a Jetson Nano. The car can be controlled using an app that has the ability to command it to stop, go, and adjust the PID gains for smooth driving.
 
 ---
