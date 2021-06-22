@@ -7,9 +7,10 @@ date: 2020-03-18
 img: 148-car.jpg
 thumbnail: 148-car-thumbnail.png
 alt: image-alt
-project-date: April - June 2021
-client: Start Bootstrap
+project-date: April to June 2021
+client: 
 category: Robotics
+website: https://sites.google.com/eng.ucsd.edu/156b-team01-spring-2021/home?pli=1&authuser=1
 description: Meet our car, Harold! This RC car can navigate around a race track autonomously using ROS, OpenCV, and PID Control - all run on a Jetson Nano. The car can be controlled using an app that has the ability to command it to stop, go, and adjust the PID gains for smooth driving.
 
 ---

@@ -296,18 +296,19 @@ header .intro-text {
     padding-bottom: 50px;
 }
 
-header .intro-text .intro-lead-in {
+header .container .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 22px;
+    font-size: 36px;
     font-style: italic;
     line-height: 22px;
 }
 
-header .intro-text .intro-heading {
+
+header .container .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    text-transform: capitalize;
+    font-family: {{ site.data.template.font.secondary }};
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -329,7 +330,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
+        text-transform: capitalize;
         font-family: {{ site.data.template.font.primary }};
         font-size: 75px;
         font-weight: 700;
@@ -808,10 +809,19 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: Helvetica;
+    /* font-family: {{ site.data.template.font.secondary }}; */
     font-size: 16px;
     font-style: italic;
 }
+
+#project-description {
+    /* text-transform: uppercase; */
+    font-family: sans-serif; 
+    font-size: 16px;
+    color: #{{ site.data.template.color.muted }};
+}
+
 
 .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
@@ -911,23 +921,14 @@ body {
 
 .about-me-header {
     font-size: 50px; 
+    text-transform: capitalize;
+    font-family: {{ site.data.template.font.secondary }}; 
 }
 
 .about-me-description {
     max-width: 600px; 
     font-size: 20px; 
 }
-/* 
-.about-me-description {
-    text-align: center;
-    margin: auto; 
-    border-width: 5px; 
-    display: block; 
-    margin-block-start: 1em; 
-    margin-block-end: 1em; 
-    margin-inline-start: 0px; 
-    margin-inline-end: 0px; 
-}  */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
@@ -976,3 +977,4 @@ body {
   99% { background-color: transparent; }
   100%  { background-color: #ccc; }
 }
+

@@ -7,10 +7,14 @@ date: 2020-01-21
 img: enlighten.png
 thumbnail: enlighten-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: xxx
+project-date: January to March 2020
+client: 
+category: Sustainability
+website: https://domogami.wixsite.com/enlighten 
+description: This project won our team first prize as part of the IEEE Quarterly Projects Competition at UCSD. Sitting in UCSD's Geisel Library to brainstorm ideas for our project, we observed that during the day on weekends, when there were hardly any people in the large areas of the main floor, all the lights would be turned on. While public buildings have motion sensors, these are prone to error. Additionally, power wastage in households is common since people forget to turn their lights off. To solve this problem, we created a smart light switch module that makes it easier for people to remember to turn lights on or off, via an app or automation using machine learning. The light switch module below can easily be attached to a light switch. Two Raspberry Pis were used - one for detecting people leveraging Google's pre-trained TensorFlow models and another for communicating with servos that flipped the light switch when commanded to using the app. Firebase was used to store information about the lights in the room and their state (on or off). I was primarily involved in automating the process of turning lights on or off using machine learning. You can read more about our project at https://domogami.wixsite.com/enlighten.
 
 ---
 
+adf;ajdsfljasfd
+
+# ajsdf;klajsdfj
