@@ -17,16 +17,24 @@
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p id="project-description">{{ post.description }}</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                                <!-- <li>Client:
+                                    <strong><a class="project-items" href="http://startbootstrap.com">{{ post.client }}</a>
                                     </strong>
-                                </li>
+                                </li> -->
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                    <strong><a>{{ post.project-date }}</a>
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                <li>Project Type:
+                                    <strong><a>{{ post.category }}</a>
+                                    </strong>
+                                </li>
+                                <li>Skills:
+                                    <strong><a>{{ post.skills }}</a>
+                                    </strong>
+                                </li>
+                                <li>Technologies:
+                                    <strong><a>{{ post.tech }}</a>
                                     </strong>
                                 </li>
                             </ul>
