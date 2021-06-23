@@ -6,7 +6,7 @@ View it at https://devgulati.tech.
 
 ### Credits
 
-- Rick Kim and all the contributors for the [agency-jekyll-theme](https://github.com/y7kim/agency-jekyll-theme)
-- Gaganjot Singh for Typewriter Effect (#9 in [11+ Typewriter effect](https://dev.to/gscode/11-typewriter-effect-3p3c))
+- Rick Kim and all the contributors for [agency-jekyll-theme](https://github.com/y7kim/agency-jekyll-theme)
+- Gaganjot Singh for Typewriter Effect (#9 in the article [11+ Typewriter effect](https://dev.to/gscode/11-typewriter-effect-3p3c))
 - [formspree.io](https://formspree.io/)
 
