@@ -1,30 +1,12 @@
-Agency Jekyll theme
-====================
+# Personal Website
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+First iteration. Built with HTML, CSS, and Javascript with the help of [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/). 
 
-# How to use
+View it at https://devgulati.tech.
 
-###Portfolio 
+### Credits
 
-Portfolio projects are in '/_posts'
+- Rick Kim and all the contributors for the [agency-jekyll-theme](https://github.com/y7kim/agency-jekyll-theme)
+- Gaganjot Singh for Typewriter Effect (#9 in [11+ Typewriter effect](https://dev.to/gscode/11-typewriter-effect-3p3c))
+- [formspree.io](https://formspree.io/)
 
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
