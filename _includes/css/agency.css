@@ -894,53 +894,47 @@ body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
 
-/* .about-me {
-    position: relative;    
-    overflow: hidden; 
-    display: grid; 
-    grid-template-rows: 1fr 2fr 1fr; 
-    align-items: center; 
-    max-width: 500px; 
-} */
-
 .about-me {
-    margin: auto; 
-    align-items: center; 
+    justify-items: center; 
     display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(380px,1fr));
+    padding-top: 30px; 
+    max-width: 1200px;
+    width: 100%;
+    margin: auto; 
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); 
 }
 
-/* @media (max-width: 1000px)
-.about-me-image {
-    width: 400px; 
-    height: 400px; 
-    margin-top: 30px; 
-    margin: auto; 
-} */
-
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
     .about-me-image {
         margin: auto; 
         margin-top: 30px; 
         height: 400px; 
         width: 400px;
     }
+
+    .about-me {
+        margin: auto; 
+        align-items: center; 
+        display: grid; 
+        grid-template-columns: repeat(auto-fit, minmax(380px,1fr));
+    }
 } 
 
 .about-me-image {
     border-radius: 50%; 
     max-width: 500px; 
-    margin: auto;
 }
 
 .about-me-header {
     font-size: 50px; 
     text-transform: capitalize;
+    text-align: center;
     display: block; 
     margin-block-start: 0.67em; 
     margin-block-end: 0.67em; 
     margin-inline-start: 0px; 
     margin-inline-end: 0px;
+    margin: auto; 
     font-family: {{ site.data.template.font.secondary }};  
 }
 
@@ -954,51 +948,19 @@ body {
 }
 
 .about-me-description {
-    max-width: 500px; 
+    max-width: 610px; 
     font-size: 20px; 
-    /* margin: auto;  */
-    /* padding: 0 30px;  */
+    text-align: center; 
+    margin: auto; 
 }
 
-@media(min-width:768px) {
-    .about-me-image {
-        /* border-radius: 50%; 
-        max-width: 500px; 
-        margin: auto; */
-    }
-    
-    .about-me-header {
-        /* font-size: 50px; 
-        text-transform: capitalize;
-        font-family: {{ site.data.template.font.secondary }};  */
-    }
-    
-    .about-me-description {
-        /* max-width: 600px;  */
-        /* font-size: 30px;  */
-        /* margin: auto;  */
-        /* padding: 0 30px;  */
-    }
+.about-me-container {
+    margin: auto; 
+    padding: 0 30px; 
 }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-/* body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #000;
-  color: #eee;
-} */
-/* .container {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 .container p {
   font-size: 3rem;
   padding: 0.5rem;
