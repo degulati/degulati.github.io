@@ -907,7 +907,7 @@ body {
     margin: auto; 
     align-items: center; 
     display: grid; 
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(380px,1fr));
 }
 
 /* @media (max-width: 1000px)
@@ -918,6 +918,15 @@ body {
     margin: auto; 
 } */
 
+@media (max-width: 1000px) {
+    .about-me-image {
+        margin: auto; 
+        margin-top: 30px; 
+        height: 400px; 
+        width: 400px;
+    }
+} 
+
 .about-me-image {
     border-radius: 50%; 
     max-width: 500px; 
@@ -927,12 +936,49 @@ body {
 .about-me-header {
     font-size: 50px; 
     text-transform: capitalize;
-    font-family: {{ site.data.template.font.secondary }}; 
+    display: block; 
+    margin-block-start: 0.67em; 
+    margin-block-end: 0.67em; 
+    margin-inline-start: 0px; 
+    margin-inline-end: 0px;
+    font-family: {{ site.data.template.font.secondary }};  
+}
+
+.about-me-text {
+    position: relative; 
+    overflow: hidden; 
+    display: grid; 
+    grid-template-rows: 1fr 2fr 1fr;
+    align-items: center; 
+    max-width: 500px;
 }
 
 .about-me-description {
-    max-width: 600px; 
+    max-width: 500px; 
     font-size: 20px; 
+    /* margin: auto;  */
+    /* padding: 0 30px;  */
+}
+
+@media(min-width:768px) {
+    .about-me-image {
+        /* border-radius: 50%; 
+        max-width: 500px; 
+        margin: auto; */
+    }
+    
+    .about-me-header {
+        /* font-size: 50px; 
+        text-transform: capitalize;
+        font-family: {{ site.data.template.font.secondary }};  */
+    }
+    
+    .about-me-description {
+        /* max-width: 600px;  */
+        /* font-size: 30px;  */
+        /* margin: auto;  */
+        /* padding: 0 30px;  */
+    }
 }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
