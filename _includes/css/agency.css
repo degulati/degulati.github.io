@@ -920,9 +920,19 @@ body {
     }
 } 
 
+@media(max-width: 768px) {
+    .about-me-image {
+        margin: auto; 
+        margin-top: 30px; 
+        height: 300px; 
+        width: 300px; 
+    }
+}
+
 .about-me-image {
+    margin-top: 100px;
     border-radius: 50%; 
-    max-width: 400px; 
+    max-width: 500px; 
 }
 
 .about-me-header {
