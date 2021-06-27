@@ -1,9 +1,9 @@
 ---
 title: Autonomous RC Car
-subtitle: Controls & Robotics
+subtitle: AI, Controls & Robotics
 layout: default
 modal-id: 2
-date: 2020-03-18
+date: 2014-07-17
 img: 148-car.jpg
 thumbnail: 148-car-thumbnail.png
 alt: image-alt
@@ -11,8 +11,9 @@ project-date: April to June 2021
 client: 
 category: Robotics, Self-Driving
 skills: Python Programming, Embedded Linux
-tech: ROS, Solidworks, OpenCV
-website: https://sites.google.com/eng.ucsd.edu/156b-team01-spring-2021/home?pli=1&authuser=1
-description: Meet our car, Harold! This RC car can navigate around a race track autonomously using ROS, OpenCV, and PID Control - all run on a Jetson Nano. The car can be controlled using an app that has the ability to command it to stop, go, and adjust the PID gains for smooth driving.
+tech: ROS, MQTT, Jetson Nano (Microcontroller), GPU, OpenCV
+website: https://devgulati.tech
+video: https://www.youtube.com/embed/mQgnTPqZ1wQ?autoplay=1&mute=1
+description: Meet our car, Harold! This RC car can navigate around a race track autonomously using ROS, OpenCV, and PID Control - all run on a Jetson Nano. The car can be controlled using an app which has the ability to command it to stop, go, and adjust the PID gains.
 
 ---

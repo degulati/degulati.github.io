@@ -3,13 +3,14 @@ title: COVID-19 Exam Proctor, Tata Elxsi
 subtitle: Software Development
 layout: default
 modal-id: 6
-date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+date: 2014-07-16
+img: 
+thumbnail:
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: August to October 2020
+client: Tata Elxsi
+category: Software Engineering, Video Analytics
+skills: HTML, CSS, Javascript, Flask
+description: In the fall of 2020, I interned at Tata Elxsi, an engineering services company in Bengalaru, India as a software engineer on the Video Analytics team. During COVID-19, many schools and universities were facing challenges in adapting to remote learning, with one problem being administering online exams. To address this, Tata Elxsi worked on developing a proctoring tool available on their video analytics platform, AIVA. I assisted in developing a front-end user interface that (1) displays analytics in an accessible manner and (2) sends and receives data from the back-end. The back-end provides head pose estimation, facial detection, and gaze tracking. The interface allows a user to test out the software by taking a screen-recording of the user's laptop with permission; grabbing the frames from the resulting screen recording; sending them to the back-end, where the facial detection models analyze the frames and output the resulting frames; receiving the analyzed frames from the back-end and displaying them in real-time. 
 
 ---

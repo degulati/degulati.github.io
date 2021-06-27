@@ -3,13 +3,13 @@ title: Mobility & AI Lab, Nissan
 subtitle: Data Science
 layout: default
 modal-id: 4
-date: 2014-07-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+date: 2014-07-16
+img: 
+thumbnail:
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+project-date: November to December 2020
+client: Nissan Motor Corporation
+category: Data Science, Human Factors 
+skills: Python, Data Analysis
+description: Towards the end of 2020, I interned at the Mobility & AI Lab at Nissan Motors in Atsugi, Japan as a data scientist intern on the human factors group. I worked on analyzing a 3TB dataset consisting of pedestrian and vehicle trajectories at a road intersection. I performed data cleaning, programmed algorithms to compute parameters, and developed visualizations using seaborn in a jupyter notebook. I presented these results to different research teams and senior management at a quarterly meeting in Japanese. This work was for the ultimate goal of creating an AI model that uses the computed parameters to predict whether a driver will go or not go at an intersection. 
 ---
