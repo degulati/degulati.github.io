@@ -12,7 +12,7 @@ category: Robotics, Mobile Manipulation
 skills: Simulation, Kinematics, Feedforward Control, Trajectory Generation
 tech: CoppeliaSim, MATLAB
 website: https://devgulati.tech
-video: https://www.youtube.com/embed/9aeNzqbG300?autoplay=1&mute=1&loop=1&color=1
+video: https://www.youtube.com/embed/9aeNzqbG300?autoplay=1&mute=1
 description: In this project, I wrote software that performs a pick-and-place operation on a wheeled mobile robot. Achieving this task required successfully implementing three functions - TrajectoryGenerator, which generates a desired point-to-point trajectory for the end-effector of the robot; NextState, which updates the configuration of the robot, including its chassis configuration, joint configuration, and wheels configuration; and FeedbackControl, which calculates a control law and returns the commanded wheel and arm joint speeds. All three functions are combined in a wrapper script that iterates over all the desired trajectories from TrajectoryGenerator, finding the corresponding controls needed to reach the desired configuration using FeedbackControl and updating the configuration of the robot using NextState. This project was completed as part of a final project for a graduate robotics class (MAE 204 at UCSD). 
 
 ---

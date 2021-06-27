@@ -13,7 +13,7 @@ category: Robotics, Animatronics
 skills: Simulation, Data Analysis, Scientific Communication
 tech: Solidworks, MATLAB 
 website: https://sites.google.com/eng.ucsd.edu/156b-team01-spring-2021/home?pli=1&authuser=1
-video: https://www.youtube.com/embed/9g_ZYrUrIyM?autoplay=1&mute=1&loop=1
+video: https://www.youtube.com/embed/9g_ZYrUrIyM?autoplay=1&mute=1
 description: For my senior design project, my team and I worked with ATA Engineering, a San Diego-based engineering consulting firm. This project focused on the continued development of a robotic figure to improve in-house analysis and control capabilities. ATA desired new functionality on an existing robotic figure by improving the design, analysis methods, and control system of the current figure to demonstrate to customers. The figure consists of an actuated arm and torso that can be controlled using an Arduino system. Major requirements of the project included redesigning the torso to reduce instability, developing and implementing a breakaway mechanism at the upper arm segment of the animatronic figure, and implementing a control system. The control system was developed to 1) predict arm breakage under different motion profiles 2) modify the motion profile parameters to prevent arm breakage and 3) use a control strategy to safely operate the robot arm in the event of a breakaway. My role involved creating a dynamic simulation for predicting breakaway events and testing & analysis of the figure under different motion profiles.
 
 ---
