@@ -1,0 +1,18 @@
+---
+title: TritonAI SLAM Racer
+subtitle: Robotics
+layout: default
+modal-id: 5
+date: 2014-07-14
+img: slam-racer.jpg
+thumbnail: slam-racer-thumbnail.jpg
+alt: image-alt
+project-date: June to August 2021
+category: Robotics
+skills: Python
+tech: Linux, Docker, ROS, LiDAR, IMU, NVIDIA's Jetson Xavier (Microcontroller)
+website: https://tritonai.org/
+video: 
+description: In this project, I leveraged ROS packages for using the complete navigation stack for localization, mapping, planning, and control. I worked with Linux, Docker, ROS, LiDAR, IMU, RGBD Camera, and NVIDIA's Jetson Xavier and programmed in Python to enable a 1/10-scale RC car to drive autonomously. I'm representing Triton AI, a UCSD student-run team at the DIY Robocars race this August in Oakland, CA!
+
+---

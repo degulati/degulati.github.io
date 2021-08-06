@@ -1,9 +1,9 @@
 ---
 title: Enlighten
-subtitle: Machine Learning
+subtitle: Machine Learning for Sustainability
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2014-07-15
 img: enlighten.png
 thumbnail: enlighten-thumbnail-6.png
 alt: image-alt

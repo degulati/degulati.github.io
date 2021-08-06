@@ -1,6 +1,6 @@
 ---
 title: Enlighten
-subtitle: Machine Learning
+subtitle: Machine Learning for Sustainability
 layout: default
 modal-id: 1
 date: 2020-01-21
