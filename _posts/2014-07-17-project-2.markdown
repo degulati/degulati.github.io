@@ -1,6 +1,6 @@
 ---
 title: Autonomous RC Car
-subtitle: AI, Controls & Robotics
+subtitle: AI & Robotics
 layout: default
 modal-id: 2
 date: 2014-07-17
